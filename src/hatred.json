@@ -4,7 +4,7 @@
     "hatred": [
       {
         "id": "Mathematician",
-        "reason": "The Chambermaid learns if the Mathematician wakes tonight or not, even though the Chambermaid wakes first."
+        "reason": "La Femme de chambre apprend si le Mathématicien se réveillera ou non cette nuit, même si elle se réveille avant lui."
       }
     ]
   },
@@ -13,7 +13,7 @@
     "hatred": [
       {
         "id": "Cannibal",
-        "reason": "If the Cannibal gains the Butler ability, the Cannibal learns this."
+        "reason": "Si le Cannibale acquiert la capacité du Majordome, le Cannibale l'apprend."
       }
     ]
   },
@@ -22,7 +22,7 @@
     "hatred": [
       {
         "id": "Undertaker",
-        "reason": "If the Mutant causes a second execution, the Undertaker learns either one or both executed characters (Storyteller's choice)."
+        "reason": "Si la Bête de foire provoque une seconde exécution, le Croque-mort apprend l'un ou les deux rôles des exécutés (au choix du Conteur)."
       }
     ]
   },
@@ -31,24 +31,24 @@
     "hatred": [
       {
         "id": "Mathematician",
-        "reason": "The Mathematician learns if the Lunatic attacks a different player(s) than the real Demon attacked."
+        "reason": "Le Mathématicien apprend si le Lunatique attaque un ou plusieurs joueurs différents que le du vrai Démon a attaqué."
       }
     ]
   },
   {
-    "id": "Pit-Hag",
+    "id": "PitHag",
     "hatred": [
       {
+        "id": "Politician",
+        "reason": "Une Vieille Chouette ne peut pas créer un Politicien maléfique."
+      },
+      {
         "id": "Heretic",
-        "reason": "A Pit-Hag can not create a Heretic. "
+        "reason": "Une Vieille Chouette ne peut pas créer un Hérétique."
       },
       {
         "id": "Damsel",
-        "reason": "If a Pit-Hag creates a Damsel, the Storyteller chooses which player it is."
-      },
-      {
-        "id": "Politician",
-        "reason": "A Pit-hag can not create an evil Politician."
+        "reason": "Si la Vieille Chouette créé une Demoiselle, alors le Conteur choisit pour quel joueur."
       }
     ]
   },
@@ -56,12 +56,12 @@
     "id": "Cerenovus",
     "hatred": [
       {
-        "id": "Goblin",
-        "reason": "The Cerenovus may choose to make a player mad that they are the Goblin."
+        "id": "Undertaker",
+        "reason": "Si le Manipulateur provoque une seconde exécution, le Croque-mort apprend l'un ou les deux rôles des exécutés (au choix du Conteur)."
       },
       {
-        "id": "Undertaker",
-        "reason": "If the Cerenovus causes a second execution, the Undertaker learns either one or both executed characters (Storyteller's choice)."
+        "id": "Goblin",
+        "reason": "Le Manipulateur peut choisir de rendre un joueur dément d'être le Gobelin."
       }
     ]
   },
@@ -70,61 +70,61 @@
     "hatred": [
       {
         "id": "Soldier",
-        "reason": "If Leviathan nominates and executes the Soldier, the Soldier does not die."
+        "reason": "Si le Léviathan nomme et exécute le Soldat, il ne meurt pas."
       },
       {
         "id": "Monk",
-        "reason": "If Leviathan nominates and executes the player the Monk chose, that player does not die."
+        "reason": "Si le Léviathan nomme et exécute le joueur choisi par le Moine, ce joueur ne meurt pas."
       },
       {
         "id": "Innkeeper",
-        "reason": "If Leviathan nominates and executes a player the Innkeeper chose, that player does not die."
+        "reason": "Si le Léviathan nomme et exécute un joueur choisi par l'Aubergiste, ce joueur ne meurt pas."
       },
       {
         "id": "Ravenkeeper",
-        "reason": "If Leviathan is in play & the Ravenkeeper dies by execution, they wake that night to use their ability."
-      },
-      {
-        "id": "Sage",
-        "reason": "If Leviathan is in play & the Sage dies by execution, they wake that night to use their ability."
+        "reason": "Si le Léviathan est en jeu et que le Gardien meurt par exécution, il se réveille cette nuit-là pour utiliser sa capacité."
       },
       {
         "id": "Farmer",
-        "reason": "If Leviathan is in play & a Farmer dies by execution, a good player becomes a Farmer that night."
+        "reason": "Si le Leviathan est en jeu et que le Fermier meurt par exécution, alors a joueur bon devient le Fermier la nuit qui suit."
+      },
+      {
+        "id": "Sage",
+        "reason": "Si le Léviathan est en jeu et que le Sage meurt par exécution, il se réveille cette nuit-là pour utiliser sa capacité."
       },
       {
         "id": "Mayor",
-        "reason": "If Leviathan is in play & no execution occurs on day 5, good wins."
+        "reason": "Si le Léviathan est en jeu et qu'aucune exécution n'a lieu le 5e jour, victoire pour le Village."
       }
     ]
   },
   {
     "id": "Al-Hadikhia",
     "hatred": [
-      {
-        "id": "Scarlet Woman",
-        "reason": "If there are two living Al-Hadikhias, the Scarlet Woman Al-Hadikhia becomes the Scarlet Woman again."
-      },
-      {
-        "id": "Mastermind",
-        "reason": "Only 1 jinxed character can be in play. Evil players start knowing which player and character it is."
-      }
+    {
+      "id": "Scarlet Woman",
+      "reason": "S'il y a deux Al-Hadikhias en vie, la Croqueuse d'Hommes Al-Hadikhia redevient la Croqueuse d'Hommes."
+    },
+    {
+      "id": "Mastermind",
+      "reason": "Seul un rôle modifié peut être en jeu. Les maléfiques savent de quel joueur et rôle il s'agit."
+    }
     ]
   },
   {
-    "id": "Lil' Monsta",
+    "id": "LilMonsta",
     "hatred": [
       {
-        "id": "Poppy Grower",
-        "reason": "If the Poppy Grower is in play, Minions don't wake together. They are woken one by one, until one of them chooses to take the Lil' Monsta token."
+        "id": "ScarletWoman",
+        "reason": "S'il y a 5 joueurs ou plus sont en vie et que le joueur qui détient le jeton du P’tit monstre meurt, la Croqueuse d’homme reçoit le jeton du P’tit monstre cette nuit."
       },
       {
-        "id": "Magician",
-        "reason": "Only 1 jinxed character can be in play. "
+        "id": "Farmer",
+        "reason": "Si le Leviathan est en jeu et que le Fermier meurt par exécution, alors a joueur bon devient le Fermier la nuit qui suit."
       },
       {
-        "id": "Scarlet Woman",
-        "reason": "If there are 5 or more players alive and the player holding the Lil' Monsta token dies, the Scarlet Woman is given the Lil' Monsta token tonight."
+        "id": "PoppyGrower",
+        "reason": "Si le Cultivateur de pavot est en jeu, les sbires ne se réveillent pas ensemble. Ils sont réveillés un par un, jusqu'à ce que l'un d'eux choisisse de prendre le jeton le P’tit Monstre."
       }
     ]
   },
@@ -133,7 +133,7 @@
     "hatred": [
       {
         "id": "Gambler",
-        "reason": "If the Lycanthrope is alive and the Gambler kills themself at night, no other players can die tonight."
+        "reason": "Si le Lycanthrope est vivant et que le Parieur meurt par sa capacité, aucun autre joueur ne peut mourir cette nuit."
       }
     ]
   },
@@ -142,16 +142,16 @@
     "hatred": [
       {
         "id": "Preacher",
-        "reason": "Only 1 jinxed character can be in play."
+        "reason": "Cette combinaison n’est tout simplement pas recommandée. Seulement un des deux rôles est possiblement en jeu. Les maléfiques savent de quel joueur et quel rôle il s'agit."
       }
     ]
   },
   {
-    "id": "Fang Gu",
+    "id": "FangGu",
     "hatred": [
       {
-        "id": "Scarlet Woman",
-        "reason": "If the Fang Gu chooses an Outsider and dies, the Scarlet Woman does not become the Fang Gu."
+        "id": "ScarletWoman",
+        "reason": "Si le Fang Gu choisit un Étranger et meurt, la Croqueuse d’homme ne devient pas le Fang Gu."
       }
     ]
   },
@@ -159,20 +159,20 @@
     "id": "Spy",
     "hatred": [
       {
-        "id": "Magician",
-        "reason": "When the Spy sees the Grimoire, the Demon and Magician's character tokens are removed."
-      },
-      {
-        "id": "Poppy Grower",
-        "reason": "If the Poppy Grower is in play, the Spy does not see the Grimoire until the Poppy Grower dies."
-      },
-      {
-        "id": "Damsel",
-        "reason": "Only 1 jinxed character can be in play. "
+        "id": "PoppyGrower",
+        "reason": "Si le Cultivateur de pavot est en jeu, l’Espion ne voit le Grimoire jusqu'à ce qu’il meure."
       },
       {
         "id": "Heretic",
-        "reason": "Only 1 jinxed character can be in play."
+        "reason": "Cette combinaison n’est tout simplement pas recommandée. Seulement un des deux rôles est possiblement en jeu."
+      },
+      {
+        "id": "Magician",
+        "reason": "Lorsque le Magicien voit le Grimoire, les jetons du Démon et du Magicien lui sont cachés."
+      },
+      {
+        "id": "Damsel",
+        "reason": "Cette combinaison n’est tout simplement pas recommandée. Seulement un des deux rôles est possiblement en jeu."
       }
     ]
   },
@@ -181,19 +181,19 @@
     "hatred": [
       {
         "id": "Magician",
-        "reason": "When the Widow sees the Grimoire, the Demon and Magician's character tokens are removed."
+        "reason": "Lorsque la Veuve Noire voit le Grimoire, les jetons du Démon et du Magicien lui sont cachés."
       },
       {
-        "id": "Poppy Grower",
-        "reason": "If the Poppy Grower is in play, the Widow does not see the Grimoire until the Poppy Grower dies."
-      },
-      {
-        "id": "Damsel",
-        "reason": "Only 1 jinxed character can be in play."
+        "id": "PoppyGrower",
+        "reason": "Si le Cultivateur de pavot est en jeu, la Veuve Noire ne voit pas le Grimoire jusqu'à ce qu’il meure."
       },
       {
         "id": "Heretic",
-        "reason": "Only 1 jinxed character can be in play."
+        "reason": "Cette combinaison n’est tout simplement pas recommandée. Seulement un des deux rôles est possiblement en jeu."
+      },
+      {
+        "id": "Damsel",
+        "reason": "Cette combinaison n’est tout simplement pas recommandée. Seulement un des deux rôles est possiblement en jeu."
       }
     ]
   },
@@ -202,7 +202,7 @@
     "hatred": [
       {
         "id": "Heretic",
-        "reason": "Only 1 jinxed character can be in play."
+        "reason": "Cette combinaison n’est tout simplement pas recommandée. Seulement un des deux rôles est possiblement en jeu."
       }
     ]
   },
@@ -210,24 +210,24 @@
     "id": "Marionette",
     "hatred": [
       {
-        "id": "Lil' Monsta",
-        "reason": "The Marionette neighbors a Minion, not the Demon. The Marionette is not woken to choose who takes the Lil' Monsta token."
+        "id": "LilMonsta",
+        "reason": "La Marionnette est voisine d'un Sbire, pas du Démon. Elle ne se réveille pas pour choisir qui prend le P’tit Monstre."
       },
       {
-        "id": "Poppy Grower",
-        "reason": "When the Poppy Grower dies, the Demon learns the Marionette but the Marionette learns nothing."
-      },
-      {
-        "id": "Snitch",
-        "reason": "The Marionette learns 3 not in-play characters when the Snitch dies, instead of at the start of the game."
+        "id": "PoppyGrower",
+        "reason": "Lorsque le Cultivateur de pavot meurt, le Démon découvre la Marionnette mais la Marionnette n'apprend rien."
       },
       {
         "id": "Balloonist",
-        "reason": "If the Marionette thinks that they are the Balloonist, +1 Outsider was added."
+        "reason": "Si la Marionnette pense qu'elle est l’Aéronaute, ajouté un Étranger supplémentaire."
+      },
+      {
+        "id": "Snitch",
+        "reason": "La Marionette prend connaissance de 3 rôles qui ne sont pas en jeu à la mort de la Balance plutôt qu'en début de partie."
       },
       {
         "id": "Huntsman",
-        "reason": "If the Marionette thinks that they are the Huntsman, the Damsel was added."
+        "reason": "Si la Marionette croit être le Chasseur, alors la Demoiselle est ajoutée."
       }
     ]
   },
@@ -235,13 +235,13 @@
     "id": "Lleech",
     "hatred": [
       {
-        "id": "Mastermind",
-        "reason": "If the Mastermind is alive and the Lleech's host dies by execution, the Lleech lives but loses their ability. "
+      "id": "Mastermind",
+      "reason": "Si le Manipulateur est vivant et que l'hôte de la Sangsue meurt par exécution, alors la Sangsue survit mais perd sa capacité."
       },
       {
-        "id": "Slayer",
-        "reason": "If the Slayer slays the Lleech's host, the host dies. "
+      "id": "Slayer",
+      "reason": "Si le Mercenaire cible l'hôte de la Sangsue, alors l'hôte meurt."
       }
     ]
-  }
+    }
 ]
